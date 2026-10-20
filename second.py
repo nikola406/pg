@@ -2,7 +2,7 @@ def cislo_text(cislo):
     # funkce zkonvertuje cislo do jeho textove reprezentace
     # napr: "25" -> "dvacet pět", omezte se na cisla od 0 do 100
     hodnota = int(cislo)
-    jednotky = ["nula", "jedna", "dva", "tři", "čtyři", "pět", "šest", "sedm", "osm", "devět", "deset"]
+    jednotky = ["nula", "jedna", "dva", "tři", "čtyři", "pět", "šest", "sedm", "osm", "devět", "deset", "jedenáct", "dvanáct", "třináct", "čtrnáct", "patnáct", "šestnáct", "sedmnáct", "osmnáct", "devatenáct"]
     desitky = ["", "", "dvacet", "třicet", "čtyřicet", "padesát", "šedesát", "sedmdesát", "osmdesát", "devadesát"]
 
     if hodnota == 100:
